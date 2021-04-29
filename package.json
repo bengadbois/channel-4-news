@@ -1,0 +1,14 @@
+{
+  "name": "channel-4-news",
+  "version": "1.0.0",
+  "description": "List newly created slack channels in a slack channel",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "bengadbois",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "3.3.0"
+  }
+}

@@ -1,0 +1,17 @@
+spec:
+  name: channel-4-news
+  services:
+    - name: channel-4-news
+      git:
+        repo_clone_url: https://github.com/bengadbois/channel-4-news.git
+        branch: main
+      environment_slug: node-js
+      envs:
+        - key: SLACK_CHANNEL
+          value: channel ID
+        - key: SLACK_SIGNING_SECRET
+          value: app signing secret
+          type: SECRET
+        - key: SLACK_TOKEN
+          value: bot oauth token
+          type: SECRET
